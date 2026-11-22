@@ -96,7 +96,7 @@ async function main() {
   );
   check(
     "resource library returns published items",
-    (resources.json?.data?.resources?.length ?? 0) >= 6,
+    (resources.json?.data?.resources?.length ?? 0) >= 16,
     `got ${resources.json?.data?.resources?.length}`,
   );
 
