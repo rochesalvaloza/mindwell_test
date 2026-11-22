@@ -36,7 +36,7 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
+    "@eslint/js": "^8.57.1",
     "@types/bcrypt": "^6.0.0",
     "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",
@@ -47,11 +47,17 @@
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
     "drizzle-kit": "^0.31.11",
-    "eslint": "^10.10.0",
+    "eslint": "^8.57.1",
     "jiti": "^2.7.0",
     "tsdown": "^0.23.0",
     "tsx": "^4.23.13",
     "typescript": "^6.0.3",
     "typescript-eslint": "^7.3.1"
+  },
+  "allowScripts": {
+    "esbuild@0.18.20": true,
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.2": true,
+    "bcrypt@6.0.0": true
   }
 }
